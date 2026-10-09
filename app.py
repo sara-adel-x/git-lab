@@ -1,4 +1,6 @@
 def greet(name):
     return f"Hello, {name}!"
 
-print(greet("Git"))
+
+if __name__ == "__main__":
+    print(greet("Git"))
